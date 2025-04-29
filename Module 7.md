@@ -15,13 +15,35 @@ Else
 6.	Return 0
  
 Program:
+```
+#include<stdio.h> 
+struct eligib 
+{ 
+int age; 
+char n[4]; 
+}; 
+int main() 
+{ 
+struct eligib e; 
+scanf("%d%s",&e.age,e.n); 
+if(e.age<=6) 
+{ 
+printf("Age:%d\nName:%svaccine:%d\neligibility:no",e.age,e.n,e.age); 
+} 
+else 
+{ 
+} 
+ 
+printf("Age:%d\nName:%svaccine:%d\neligibility:yes",e.age,e.n,e.age); 
+ 
+}
 
-//type your code here
+```
 
 
 Output:
+![7](https://github.com/user-attachments/assets/24f4adcb-73c6-478b-9a0c-4f9f5430a377)
 
-//paste your output here
 
 
 Result:
@@ -44,7 +66,7 @@ Algorithm:
  
 Program:
 
-//type your code here
+
 
 
 
