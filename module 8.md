@@ -15,7 +15,7 @@ Algorithm:
 4.	Exit the program.
  
 Program:
-
+```
 #include<stdio.h> 
 #include<math.h> 
 int main() 
@@ -79,7 +79,7 @@ printf("Greater than 13");
 } 
 } 
 }
-
+```
 
 Output:
 ![Screenshot 2025-04-25 105349](https://github.com/user-attachments/assets/c3356245-fd02-41a4-9605-a6a6c57f2090)
@@ -99,7 +99,7 @@ Algorithm:
 6.	End
  
 Program:
-
+```
 #include<stdio.h> 
 #include<string.h> 
 int main() 
@@ -122,6 +122,7 @@ printf("%d ",c);
 h++; 
 } 
 }
+```
 
 Output:
 
@@ -148,7 +149,7 @@ Free the memory allocated for each string in s Free the memory allocated for s
 7.	End
  
 Program:
-
+```
 #include<stdio.h> 
 #include<string.h> 
 #include<stdlib.h> 
@@ -206,7 +207,7 @@ free(s);
 return 0; 
 } 
 } 
-
+```
 
 
 Output:
@@ -231,7 +232,7 @@ Algorithm:
 7.	End
  
 Program:
-
+```
 #include<stdio.h> 
 int main() 
 { 
@@ -253,7 +254,7 @@ printf("\n");
 } 
 return 0; 
 }
-
+```
 Output:
 ![Screenshot 2025-04-25 105628](https://github.com/user-attachments/assets/67409b57-a48e-4c94-a8a1-288a93ebfd32)
 
@@ -281,7 +282,7 @@ o	Call the square() function and display the result.
 
 Program:
 
- 
+``` 
 #include <stdio.h> 
 void square(); 
 int main(){ 
@@ -295,7 +296,7 @@ void square(){
     float ans = a*a; 
     printf("The square of %d is : %.2f",a,ans); 
 }
-
+```
 Output:
 ![Screenshot 2025-04-25 105708](https://github.com/user-attachments/assets/194792b9-666a-4790-b598-5cfcb18742e6)
 
