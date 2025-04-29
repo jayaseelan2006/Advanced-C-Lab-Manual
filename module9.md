@@ -12,6 +12,7 @@ Algorithm:
 7.	Use the display function to visualize the stack's contents
  
 Program:
+```
 
 int stack[40],top,i; 
 void display() 
@@ -22,7 +23,7 @@ printf("%d\n",stack[i]);
 } 
 }
 
-
+```
 Output:
 
 ![Screenshot 2025-04-25 110001](https://github.com/user-attachments/assets/d3245c66-e470-415f-a93c-ab22b8e62973)
@@ -41,7 +42,7 @@ Algorithm:
 4.	Call the push function as needed.
  
 Program:
-
+```
 int size=3,top=1; 
 float stack[40]; 
 void push (float data) 
@@ -56,7 +57,7 @@ top ++;
 stack[top] = data; 
 } 
 }
-
+```
 
 Output:
 ![Screenshot 2025-04-25 110045](https://github.com/user-attachments/assets/f37120a2-8fbe-4a11-b59a-8a2650c05efb)
@@ -77,7 +78,7 @@ Algorithm:
 4.	Call the display function and perform other queue operations as needed.
  
 Program:
-
+```
 int queue[50], rear, front,i; 
 void display() 
 { 
@@ -93,7 +94,7 @@ printf("%d ",queue[i]);
 } 
 } 
 }
-
+```
 Output:
 
 ![Screenshot 2025-04-25 110123](https://github.com/user-attachments/assets/1ab17381-988b-4ab1-9a9d-1ba989f50556)
@@ -114,7 +115,7 @@ Algorithm:
 4.	Call the enqueue function as needed.
 
 Program:
-
+```
 int size=4, rear=-1, front=-1; 
 float queue[50]; 
 void enqueue(float data) 
@@ -129,7 +130,7 @@ rear=rear+1;
 queue[rear]=data; 
 } 
 }
-
+```
 Output:
 
 ![Screenshot 2025-04-25 110234](https://github.com/user-attachments/assets/47a85499-bcf8-4e6b-89e5-c877191d3be6)
@@ -156,7 +157,7 @@ o	After deletion, check if the front pointer has passed the rear pointer (front 
 4.	End the Function.
 
 Program:
-
+```
 int front, rear; 
 void dequeue() 
 { 
@@ -168,7 +169,7 @@ void dequeue()
         front=front+1; 
     } 
 }
-
+```
 
 
 Output:
