@@ -9,6 +9,7 @@ Algorithm:
 4.	Call the search function and perform other linked list operations as needed.
  
 Program:
+```
 
 struct Node{ 
 struct Node *next; 
@@ -44,7 +45,7 @@ printf("Item not found\n");
 } 
  
 }
-
+```
 Output:
 
 ![Screenshot 2025-04-25 110656](https://github.com/user-attachments/assets/aa041a85-47ba-4c7a-b02c-f0601ec173d2)
@@ -64,7 +65,7 @@ Algorithm:
 4.	Call the insert function and perform other linked list operations as needed.
  
 Program:
-
+```
 struct Node{ 
 char data; 
 struct Node *next; 
@@ -99,7 +100,7 @@ Output:
 
 Result:
 Thus, the program to insert a node in a linked list is verified successfully.
-
+```
 
  
 EXP NO:18 C PROGRAM TO TRAVERSE A DOUBLY LINKED LIST
@@ -113,7 +114,7 @@ Algorithm:
 4.	Move to the next node by updating the temp pointer to point to the next node (temp = temp->next).
  
 Program:
-
+```
 struct Node 
 { 
 struct Node *prev; 
@@ -130,7 +131,7 @@ printf("%d ",temp->data);
 temp=temp->next; 
 } 
 } 
-
+```
 Output:
 
 ![Screenshot 2025-04-25 110844](https://github.com/user-attachments/assets/972e6355-aa17-4951-b13c-106bd1163b27)
@@ -152,7 +153,7 @@ Algorithm:
 5.	Set the new node's prev pointer to the last node and update the last node's next pointer to the new node.
  
 Program:
-
+```
 struct Node 
 { 
 struct Node *prev; 
@@ -188,7 +189,7 @@ temp->next=n;
 } 
 }
 
-
+```
 Output:
 
 ![Screenshot 2025-04-25 110935](https://github.com/user-attachments/assets/921b352c-1ba7-4946-9fcf-797b26d1853c)
@@ -222,7 +223,7 @@ o	If the element is not found in any node, print a message indicating the elemen
 
 Program:
 
- 
+ ```
 struct Node{ 
     char data;  
     struct Node *next; 
@@ -247,7 +248,7 @@ void delete()
     } 
 } 
 
-
+```
 Output:
 
 ![Screenshot 2025-04-25 111032](https://github.com/user-attachments/assets/f100cbc3-8cbe-4f52-9b23-f0a8315f02c8)
